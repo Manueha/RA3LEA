@@ -163,7 +163,7 @@ console.log(suma(valor1,valor2))
 
     function dividir(frase, paraula) {
         const posicioParaula = posicio(frase, paraula);
-        return frase.slice(frase.length - posicioParaula);
+        return frase.slice(frase.length - posicioParaula) ;
     }
 
 
